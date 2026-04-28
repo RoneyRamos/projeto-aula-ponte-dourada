@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login PonteDourada</title>
+    <link rel="stylesheet" href="CSS/projetoteste.css">
+    
+</head>
+
+<body>
+    <div class="loginContainer">
+        <header class="top-bar">
+            <a href="javascript:void(0)" onclick="window.history.back();" class="btn-back">
+                <img src="img/setaretorno.jpeg" alt="Voltar">
+            </a>
+            <span class="sector-info">🏠<BR> <strong>CADASTRO DE SERVIÇOS</strong></span>
+        </header>
+        <div class="logo">
+            <img src="img/2.jpeg" alt="">
+        </div>
+
+        <div class="configProduto">Nome : <br><input type="text" id="idNome" placeholder="Digite aqui o produto...">
+
+        </div><br>
+
+        <div class="configTipo">Descrição : <br><input type="text" id="idDescricao" placeholder="Digite o tipo do produto...">
+
+        </div><br>
+
+        <div class="configFornecedor">Preço Base: <input type="text" id="idPrecoBase" placeholder="00.000.000/0000-00" maxlength="18">
+
+        <button type="submit" id="btnLogar
+
+            " onclick="cadastrarProduto()">CADASTRAR</button>
+
+        <div id="btnCadastrar" style="display:none;">
+
+            <h2 id="mensagemProdutoCadastro"></h2>
+
+            <p>Setor: <span id="nomeSetor"></span></p>
+
+        </div>
+
+    </div>
+<script src="javascript/projetoteste.js"></script>
+</body>
+
+</html>

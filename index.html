@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login PonteDourada</title>
+    <link rel="stylesheet" href="CSS/projetoteste.css">
+   
+</head>
+
+<body>
+    <div class="loginContainer">
+        <div class="logo">
+            <img src="img/2.jpeg" alt="">
+        </div>
+        <div class="configEmail">Login : <br><input type="text" id="log" placeholder="Digite aqui seu e-mail..."></div>
+        <br>
+        <div class="configSenha">Senha : <br><input type="password" id="senha" placeholder="Digite aqui seu senha...">
+        </div>
+        <br>
+        <button type="button" id="btnLogar" onclick="logar()">LOGAR</button>
+        <div id="telaPrincipal" style="display:none;">
+            <h2 id="mensagemBoasVindas"></h2>
+            <p>Setor: <span id="nomeSetor"></span></p>
+        </div>
+    </div>
+
+
+ <script src="javascript/projetoteste.js"></script>
+
+</body>
+
+</html>

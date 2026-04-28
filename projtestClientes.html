@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login PonteDourada</title>
+    <link rel="stylesheet" href="CSS/projetoteste.css">
+    
+</head>
+
+<body>
+    <div class="loginContainer">
+        <header class="top-bar">
+            <a href="javascript:void(0)" onclick="window.history.back();" class="btn-back">
+                <img src="img/setaretorno.jpeg" alt="Voltar">
+            </a>
+            <span class="sector-info">🏠<BR> <strong>CADASTRO DE CLIENTES</strong></span>
+        </header>
+        <div class="logo">
+            <img src="img/2.jpeg" alt="logo empresa">
+        </div>
+        <div class="configCliente">Nome : <br><input type="text" id="nomeCliente" placeholder="Digite seu nome ...">
+        </div>
+        <div class="configCpf">
+            CPF : <br>
+            <input type="text" id="cpfCliente" placeholder="000.000.000-00" maxlength="14">
+        </div>
+        <div class="configTelefone">
+            Tel para Contato : <br>
+            <input type="text" id="telCliente" placeholder="(00) 00000-0000" maxlength="15">
+        </div>
+        <div class="configFornecedor">
+    Endereço : <br>
+    <input type="text" id="endCliente" placeholder="Rua, Número, Bairro...">
+</div>
+        <button type="submit" id="btnLogar" onclick="clientela()">CADASTRAR</button>
+        <div id="btnCadastrar" style="display:none;">
+            <h2 id="mensagemClienteCadastro"></h2>
+            <p>Setor: <span id="nomeSetorCliente"></span></p>
+        </div>
+    </div>
+
+    </div>
+
+<script src="javascript/projetoteste.js"></script>
+</body>
+
+</html>
